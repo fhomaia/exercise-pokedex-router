@@ -1,3 +1,51 @@
 .App {
   text-align: center;
 }
+
+a {
+  margin-left: 10px;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
+
+.about-div img {
+  width: 300px;
+}
+
+.about-div p {
+  width: 60%;
+}
+
+.details-header {
+  display: flex;
+  justify-content: center;
+}
+
+.details-header button {
+  margin-left: 10px;
+  height: fit-content;
+  align-self: center;
+}
+
+.details-header img {
+  align-self: center;
+  margin-right: 10px;
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.pokemon-card-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
